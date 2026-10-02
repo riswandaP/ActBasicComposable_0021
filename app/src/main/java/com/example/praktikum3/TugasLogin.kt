@@ -71,7 +71,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Text(
                 text = "Muhammad Riswanda Putra Nugraha",
-                color = Color.Blue,
+                color = Color.Black,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold
             )

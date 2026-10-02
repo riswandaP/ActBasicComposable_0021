@@ -81,6 +81,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
             )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Box(
+                modifier = Modifier
+                    .size(320.dp)
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8E8F5)),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.foto_kabah),
+                    contentDescription = null,
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Fit
+                )
+            }
         }
     }
 }

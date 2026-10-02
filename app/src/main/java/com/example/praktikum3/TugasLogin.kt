@@ -43,7 +43,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         ) {
             Text(
                 text = "Login",
-                color = Color.Blue,
+                color = Color.Green,
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold
             )

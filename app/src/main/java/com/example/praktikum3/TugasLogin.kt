@@ -60,6 +60,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(130.dp)
             )
+
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }

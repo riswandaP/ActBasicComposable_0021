@@ -17,12 +17,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContent {
-            Praktikum3Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(modifier = Modifier.padding(innerPadding))
-                }
-            }
+        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            TugasLogin(modifier = Modifier.padding(paddingValues = innerPadding))
         }
     }
 }
